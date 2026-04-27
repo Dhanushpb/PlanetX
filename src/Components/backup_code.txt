@@ -1,0 +1,48 @@
+import React from "react";
+import "./RoleSelection.css";
+import managementImg from "../assets/management.jpg";
+import teacherImg from "../assets/teacher.jpg";
+import studentImg from "../assets/student.jpg";
+import parentsImg from "../assets/parent.jpg";
+
+function RoleSelection() {
+  return (
+    <div className="container">
+
+      <div className="card purple">
+        <div className="card-left">
+          <h2>Management</h2>
+          <button>Select Role</button>
+        </div>
+        <img src={managementImg} alt="Management" />
+      </div>
+
+      <div className="card green">
+        <div className="card-left">
+          <h2>Teacher</h2>
+          <button>Select Role</button>
+        </div>
+        <img src={teacherImg} alt="Teacher" />
+      </div>
+
+      <div className="card teal">
+        <div className="card-left">
+          <h2>Student</h2>
+          <button>Select Role</button>
+        </div>
+        <img src={studentImg} alt="Student" />
+      </div>
+
+      <div className="card pink">
+        <div className="card-left">
+          <h2>Parents</h2>
+          <button>Select Role</button>
+        </div>
+        <img src={parentsImg} alt="Parents" />
+      </div>
+
+    </div>
+  );
+}
+
+export default RoleSelection;
