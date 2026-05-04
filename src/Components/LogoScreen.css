@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+.full-screen {
+  width: 100%;
+  min-height: 100vh;
+  background: #e9ecef;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  padding: 20px;
+}
+
+.logo-img {
+  width: 110px;
+  height: auto;
+  object-fit: contain;
+}
+
+.logo_name h1 {
+  color: #002137;
+  font-size: 42px;
+  margin-top: 18px;
+  font-weight: 700;
+}
+
+.tagline h2 {
+  color: #002137;
+  font-size: 16px;
+  margin-top: 10px;
+  font-weight: 400;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .logo-img {
+    width: 130px;
+  }
+
+  .logo_name h1 {
+    font-size: 50px;
+  }
+
+  .tagline h2 {
+    font-size: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .logo-img {
+    width: 150px;
+  }
+
+  .logo_name h1 {
+    font-size: 56px;
+  }
+
+  .tagline h2 {
+    font-size: 20px;
+  }
+}
