@@ -18,7 +18,10 @@ yarn-error.log*
 pnpm-debug.log*
 
 # OS files
+<<<<<<< HEAD
 ._*
+=======
+>>>>>>> 1e1fcc455d0f00f79de984b6a0b08b69839d4513
 .DS_Store
 Thumbs.db
 
@@ -34,6 +37,9 @@ Thumbs.db
 .cache/
 vite.svg
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 1e1fcc455d0f00f79de984b6a0b08b69839d4513
 # Optional lock if not using npm team consistency
 # package-lock.json
