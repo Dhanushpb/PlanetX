@@ -8,7 +8,7 @@ const LogoScreen = () => {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      navigate("");
+      navigate("/roles");
     }, 4000); // 4 seconds
 
     return () => clearTimeout(timer);
