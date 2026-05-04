@@ -24,6 +24,7 @@ pnpm-debug.log*
 >>>>>>> 1e1fcc455d0f00f79de984b6a0b08b69839d4513
 .DS_Store
 Thumbs.db
+._*
 
 # Editor files
 .vscode/
